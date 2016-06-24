@@ -3,7 +3,17 @@
 
     <sitemap>
         <loc>http://codegrown.io/post-sitemap.xml</loc>
-        <lastmod>2016-06-21T08:20:33.000Z</lastmod>
+        <lastmod>2016-06-23T19:54:22.000Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://codegrown.io/category-sitemap.xml</loc>
+        
+    </sitemap>
+
+    <sitemap>
+        <loc>http://codegrown.io/tag-sitemap.xml</loc>
+        
     </sitemap>
 
 </sitemapindex>
