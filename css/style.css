@@ -441,6 +441,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+@media only screen and (min-width: 768px) {
+  .vcenter-sm {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+  }
+}
 article .container .row h1,
 article .container .row h2,
 article .container .row h3 {
@@ -617,4 +624,7 @@ pre .clojure .title {
 }
 pre .deletion {
   color: #dc322f;
+}
+.intro-header .about-heading {
+  text-align: center;
 }

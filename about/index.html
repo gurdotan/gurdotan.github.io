@@ -22,8 +22,8 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="about"/>
-        <meta property="twitter:title" content="about" >
+        <meta property="og:title" content="About Codegrown"/>
+        <meta property="twitter:title" content="About Codegrown" >
     
 
     <!--Open Graph Description-->
@@ -52,7 +52,7 @@
 
     <!-- Title -->
     
-    <title>about - Codegrown</title>
+    <title>About Codegrown | Codegrown</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -75,16 +75,6 @@
     <!-- Gallery -->
     <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
 
-    
-    <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PLBJP3"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PLBJP3');</script>
-<!-- End Google Tag Manager -->
     
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -112,6 +102,14 @@
             <ul class="nav navbar-nav navbar-right">
                 
                     <li>
+                        <a href="/about/">
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+                    <li>
                         <a href="https://github.com/klugjo/hexo-theme-clean-blog">
                             
                                 <i class="fa fa-github fa-stack-2x"></i>
@@ -130,18 +128,16 @@
     <!-- Page Header -->
 <!-- Set your background image for this header in your post front-matter: cover -->
 
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+<header class="intro-header" style="background-image: url('/img/about-scenery.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>about</h1>
+                <div class="post-heading about-heading">
+                    <h1>About Codegrown</h1>
+                    <hr class="small">
                     
-                    <span class="meta">
-                        <!-- Date and Author -->
-                        
-                        June 6th, 2016
-                    </span>
+                    <span class="subheading">Where thoughts grow</span>
+                    
                 </div>
             </div>
         </div>
@@ -153,33 +149,41 @@
     <div class="container">
         <div class="row">
 
-            <!-- Tags and categories -->
-           
-
-            <!-- Gallery -->
-            
-
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
-
-                
-            </div>
-
-            <!-- Comments -->
-            
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    
-    <hr />
-    <h3>Comments:</h3>
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div class="row">
+    <div class="col-sm-offset-2 col-sm-3 text-center vcenter-sm">
+        <img src="/img/gur-thumbnail.png" style="">
     </div>
+    <div class="col-sm-5 vcenter-sm">
+        Hi, I'm <strong>Gur Dotan</strong>, a passionate engineer and a growth hacker.
+    </div>
+</div>
 
+<div class="row text-justify" style="font-size: 0.9em">
+    <div class="col-sm-offset-2 col-sm-8">
+        <p>
+            I love building exceptional teams and intuitive software. I'm a co-founder (currently inactive) of <a href="https://soom.la/" target="_blank">SOOMLA</a>, where I took the role of VP R&D and later on VP Marketing.  During four years, I built and grew the company's flagship analytics product to reach 50 million users and +7000 mobile apps. Prior to SOOMLA, I worked for various startups and enterprise companies in the Israeli tech scene.
+        </p>
+        <p>
+            In my free time you can find me <span id="things-i-do"></span>
+        </p>
+        <p>
+            You gotta admit you've never seen the sliding text effect on an "About" page :)
+        </p>
+        <p>
+            Though I'm hooked on technology, I always dig an outdoor hike to clear your mind and get some inspiration.  In the words of wilderness pioneer John Muir -
+            <blockquote><p>“In every walk with nature one receives far more than he seeks.”</p></blockquote>
+        </p>
+    </div>
+</div>
+<div class="row text-justify" style="font-size: 0.9em">
+    <div class="col-sm-offset-2 col-sm-8">
+    </div>
+</div>
 
-
-                </div>
-            
+            </div>
         </div>
     </div>
 </article>
@@ -235,12 +239,27 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
 
 
+<script src="/js/typed.min.js"></script>
+
+
+<script>
+    $(function() {
+        $('#things-i-do').typed({
+            strings  : ['cycling Tel Aviv.', 'surfing at sunset.', 'playing my guitar.', 'boozing away.', 'chasing my kids.', 'teasing my wife.'],
+            typeSpeed: 20,
+            backSpeed: 20,
+            startDelay: 100,
+            backDelay: 1000,
+            loop     : true
+        });
+    })
+</script>
 
 </body>
 
