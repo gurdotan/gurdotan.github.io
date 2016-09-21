@@ -7,8 +7,8 @@
     </url>
 
     <url>
-        <loc>https://codegrown.io/corporate-emails-zapier/</loc>
-        <lastmod>2016-08-07T19:57:48.000Z</lastmod>
+        <loc>https://codegrown.io/engineers-and-commitment/</loc>
+        <lastmod>2016-09-21T19:46:34.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,7 +16,15 @@
 
     <url>
         <loc>https://codegrown.io/mixpanel-content-marketing-funnel/</loc>
-        <lastmod>2016-06-30T13:15:39.000Z</lastmod>
+        <lastmod>2016-08-09T19:20:07.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://codegrown.io/corporate-emails-zapier/</loc>
+        <lastmod>2016-08-07T20:01:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
